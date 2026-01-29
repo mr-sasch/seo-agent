@@ -1,0 +1,18 @@
+projects:
+  # Проект 1
+  - name: "Аквамани"
+    domain: "aquamoney.by"
+    # yandex_metrica_id: "90599405"
+    # yandex_webmaster_host: ""  # Пропускаем на старте
+
+  # Ключевые запросы для мониторинга
+    keywords:
+      - "водомат"
+      - "вендинговые аппараты купить"
+      - "водоматы питьевой воды купить"
+      - "источник здоровья минск"
+
+    # Настройки уведомлений
+    notifications:
+    telegram: true
+    email: false

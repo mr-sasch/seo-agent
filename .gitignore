@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+
+# Логи
+*.log
+logs/
+!logs/.gitkeep  # если хотите оставить пустую папку
+
+# Данные и кеш
+data/cache/
+data/reports/
+data/history/
+data/*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Операционная система
+.DS_Store
+Thumbs.db
+
+# Ваши тестовые файлы
+test_*.db*
+test_*.py
+
+# Архивы
+archive/
+
+# Конфигурационные файлы с ключами
+config/api_keys.yaml
+config/secrets.yaml
