@@ -49,3 +49,4 @@ archive/
 # Конфигурационные файлы с ключами
 config/api_keys.yaml
 config/secrets.yaml
+.env
